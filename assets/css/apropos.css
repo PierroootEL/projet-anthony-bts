@@ -1,0 +1,46 @@
+.apropos h1{
+    font-size: 4em;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    color: darkslateblue;
+    text-decoration: underline;
+}
+.apropos h2 {
+    font-family: "Comic Sans MS";
+    font-size: 1.5em;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+.apropos p {
+    margin-top: 20px;
+    font-size: 1em;
+    font-family: "Comic Sans MS";
+    margin-left: 10%;
+}
+.rainbow {
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: "Comic Sans MS";
+    letter-spacing: 5px;
+    animation: colorRotate 2s linear 0s infinite;
+    margin-left: 50%;
+}
+
+@keyframes colorRotate {
+    from {
+        color: #6666ff;
+    }
+    10% {
+        color: #0099ff;
+    }
+    50% {
+        color: #00ff00;
+    }
+    75% {
+        color: #ff3399;
+    }
+    100% {
+        color: #6666ff;
+    }
+}

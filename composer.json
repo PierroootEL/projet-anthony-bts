@@ -1,0 +1,5 @@
+{
+    "require": {
+        "PHPMailer/PHPMailer": "^6.5"
+    }
+}

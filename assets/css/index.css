@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ************************************            IMAGE PRINCIPALE                     **************************** */
+.main {
+    padding-top: 20px;
+    background: url("../img/mainDegr.jpg") no-repeat 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+.main h1{
+    font-family: "Dancing Script", Cursive;
+    text-align: center;
+    color: mediumspringgreen;
+    font-size: 6em;
+    margin: top 40px;
+    text-shadow: 1px 3px 2px black;
+}
+.trait {
+    height: 2px;
+    width: 45%;
+    background-color: mediumspringgreen;
+    margin: -3px auto;
+    text-shadow: 1px 3px 2px black;
+    margin-top: 25px;
+}
+.trait h3{
+    text-align: center;
+    color: mediumspringgreen;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px black;
+    padding-top: 25px;
+}
+
+/* *************************************         SECTION 1       ************************************************ */
+nav{
+    float:left;
+    width:20%;
+    height:100%;
+    background-color:cadetblue;
+}
+nav, a{
+    font-family: Calibri;
+    color: white;
+    font-size: 1.3em;;
+}
+nav li{
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-top 20px;
+}
+.side-bar {
+    height: 1000px;
+    background-color: ghostwhite;
+}
+.info #nombre{
+    background: url("../img/arduino.jpg");
+    margin: 20px 100px 0 50px;
+    height:450px;
+    width: 500px;
+    max-width: 550px;
+    float: left;
+    box-shadow: 6px 6px 28px -1px black;
+}
+#nombre:hover{
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.6 ease-in-out;
+}
+.info #derniere{
+    background: url("../img/info.jpg");
+    margin: 20px 100px 0 50px;
+    height:300px;
+    width: 500px;
+    max-width: 550px;
+    float: right;
+    box-shadow: 6px 6px 28px -1px black;
+    margin-top: 100px;
+
+}
+.info #attente1{
+    border: 2px solid black;
+    text-align: center;
+}
+.info #attente2{
+    border: 2px solid black;
+    text-align: center;
+}
+#nombre a{
+    height: 80px;
+    width: 235px;
+    background-color:cadetblue;
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 4px 0 1px black;
+}
+#derniere p{
+    float: left;
+    height: 80px;
+    margin-left:-80px;
+    margin-top: 20px;
+    background-color: cadetblue;
+    box-shadow: 4px 4px 0 1px black;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 50px 160px 0 -180px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+}
+
+/* *************************************         FOOTER       ************************************************ */
+footer{
+    background-color: slategray;
+    color: antiquewhite;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1,2em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;
+}
+textarea {
+    height: 220px;
+}
+button{
+    font-size: 1.5em;
+    background-color: azure;
+    margin-bottom: 100px;
+}
+button:hover {
+    background-color: yellow;
+    color: azure;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#deuxiemeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: antiquewhite;
+    margin: 60px auto;
+}
+#copyrightEtIcons{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: azure;
+}
+#icons{
+    width: 50%;
+    text-align: right;
+}
+#icons a{
+    display: inline-block;
+    margin: 0 15px;
+    color: azure;
+    font-size: 1.3em;
+}
+#icons a:hover{
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+#contact {
+    margin-bottom: 50px;
+    margin-top: 40px;
+    font-size: 3em;
+}
